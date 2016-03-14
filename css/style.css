@@ -713,6 +713,32 @@ body.noscroll {
     line-height: 1.11111111;
   }
 
+  .section-header {
+    padding: 0;
+  }
+  .section-header .parallax, .section-header .full-image {
+    height: 500px;
+  }
+  .section-header .parallax:after, .section-header .full-image:after {
+    height: 500px;
+  }
+  .section-header .content h1, .section-header .content h5, .section-header .content p {
+    margin: 0;
+  }
+  .section-header .content h1 {
+    font-size: 3.5em;
+    letter-spacing: 0.07em;
+    line-height: 1.7;
+    margin-top: 60px;
+  }
+  .section-header .content h1 span {
+    font-size: 1em;
+  }
+  .section-header .content h5 {
+    font-size: 1.125em;
+    margin-top: 50px;
+  }
+
   .wrapper {
     text-align: center !important;
     overflow: hidden;
