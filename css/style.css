@@ -248,7 +248,7 @@ body {
     margin: 0 auto;
   }
   body p.large {
-    font-size: 1.0em;
+    font-size: 0.9em;
   }
 }
 @media (min-width: 115em) {
@@ -433,7 +433,7 @@ a:hover {
   display: block;
 }
 .section .text-area {
-  padding: 4.0em 0;
+  padding: 2.0em 0;
   position: relative;
   z-index: 3;
   display: block;
@@ -457,6 +457,7 @@ a:hover {
 .section-gray {
   background-color: #EEEEEE;
 }
+
 
 @media (min-width: 768px) {
   .title.add-animation h5,
