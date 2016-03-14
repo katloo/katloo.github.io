@@ -714,7 +714,7 @@ body.noscroll {
   }
   /* move img when small */
   .section-header .parallax > img {
-    margin: -75px 0 0 -650px;
+    margin: -75px 0 0 -550px;
   }
   .wrapper {
     text-align: center !important;
