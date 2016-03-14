@@ -248,7 +248,7 @@ body {
     margin: 0 auto;
   }
   body p.large {
-    font-size: 0.9em;
+    font-size: 0.8em;
   }
 }
 @media (min-width: 115em) {
@@ -330,6 +330,12 @@ a {
 a:hover {
   color: #777777;
   opacity: 1;
+}
+
+.interests .intro {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #444444;
 }
 
 .title {
