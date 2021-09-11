@@ -78,6 +78,8 @@ a:hover, a:focus {
   color: #d9d9d9;
   display: block;
   margin-bottom: 3px;
+  padding: 0;
+  margin: 15px 15px 15px 0px;
 }
 
 .footer .title {
@@ -90,10 +92,6 @@ a:hover, a:focus {
 .footer nav > ul li {
   display: inline-block;
   float: center;
-}
-.footer nav > ul a {
-  padding: 10px 0px;
-  margin: 15px 15px 15px 0px;
 }
 
 .footer-color-gray {
@@ -136,7 +134,7 @@ a:hover, a:focus {
 .footer-transparent::after {
   top: 0;
   left: 0;
-  height: 100%;
+  height: 100%;xx
   width: 100%;
   position: absolute;
   background-color: rgba(17, 17, 17, 0.8);
@@ -319,6 +317,7 @@ p {
 
 p,
 label,
+a,
 .title h5 {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -330,12 +329,6 @@ a {
 a:hover {
   color: #777777;
   opacity: 1;
-}
-
-.interests .intro {
-  font-size: 1.1em;
-  font-weight: bold;
-  color: #444444;
 }
 
 .title {
@@ -427,6 +420,19 @@ a:hover {
   margin-bottom: 30px;
 }
 
+/* ME IMAGE */
+.image {
+  max-width: 90%;
+  padding: 2em 2em;
+  height:auto
+}
+img {
+  vertical-align: middle
+}
+a {
+  color:inherit
+}
+
 /* SECTIONS */
 .section {
   padding: 1.875em 0;
@@ -510,7 +516,7 @@ a:hover {
 /*   end animation   */
 .pattern-image {
   width: 100%;
-  background-size: 100%;
+  background-size: 40%;
 }
 
 .filter {
@@ -571,7 +577,6 @@ a.carousel-control span.fa {
   text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
   vertical-align: center;
   line-height: 1.7;
-  position: relative;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -614,31 +619,9 @@ a.carousel-control span.fa {
 .section-we-are-2 .full-image {
   height: 450px;
 }
-.section-about-me #carousel .carousel-control {
-  width: 50%;
-}
-.section-about-me #carousel .left, .section-about-me #carousel .right {
-  z-index: 2;
-}
-.section-about-me #carousel .left {
-  cursor: url(../img/arrow-left.png), url(../img/arrow-left.cur), default !important;
-  /* Built-in fallback */
-}
-.section-about-me #carousel .right,
-.section-we-are-2 #carousel .right {
-  cursor: url(../img/arrow-right.png), url(../img/arrow-right.cur), default !important;
-  /* Built-in fallback */
-}
 
 .section-about-me p {
   color: #777777;
-}
-.section-about-me #carousel .carousel-inner {
-  max-height: 400px;
-}
-
-.card img {
-  max-width: 100%;
 }
 
 body.noscroll {
@@ -650,23 +633,6 @@ body.noscroll {
 .section-with-hover .col-sm-4 h4,
 .section-with-hover .col-xs-4 h4 {
   font-size: 2em;
-}
-
-.description {
-  margin-bottom: 20px;
-}
-
-.big-text {
-  font-size: 18px;
-  line-height: 25px;
-  font-weight: 600;
-  /*text-transform: uppercase;*/
-  margin-bottom: 0;
-}
-
-.small-text {
-  color: #777777;
-  text-align: center;
 }
 
 .scroller {
@@ -733,6 +699,7 @@ body.noscroll {
   }
   footer .row .info ul {
     text-align: center;
+
   }
   footer .row div:first-child .title {
     margin-top: 0;
