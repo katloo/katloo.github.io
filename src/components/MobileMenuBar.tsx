@@ -12,8 +12,8 @@ const MobileMenuBar = () => {
   };
 
   return (
-    <div className='fixed sm:hidden p-4 right-4 align-middle'>
-      <div className='block z-[1000]'>
+    <div className='block p-4 sm:hidden'>
+      <div className='absolute block z-[1000]'>
         <button onClick={handleDisplayMenu}>
           { displayMenu ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} /> }
         </button>
