@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer components {
+  .title {
+     @apply flex text-3xl font-sans font-bold text-black uppercase p-4
+  }
+}
+
+@layer utilities {
+  .inherit {
+    display: inherit;
+  }
+}
