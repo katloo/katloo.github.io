@@ -4,7 +4,7 @@ import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
 
 const MobileMenuBar = () => {
   const [displayMenu, setDisplayMenu] = useState(false);
-  const displayedStyling = 'fixed items-center pt-24 z-100 left-0 w-[100%] h-full ease-in-out duration-500 bg-white'
+  const displayedStyling = 'fixed items-center pt-24 z-50 left-0 w-[100%] h-full ease-in-out duration-500 bg-white'
   const notDisplayedStyling = 'ease-in-out duration-500 fixed left-[-100%]'
 
   const handleDisplayMenu = () => {
@@ -13,7 +13,7 @@ const MobileMenuBar = () => {
 
   return (
     <div className='block sm:hidden p-4'>
-      <div className='z-1'>
+      <div className='z-100'>
         <button onClick={handleDisplayMenu}>
           { displayMenu ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} /> }
         </button>
