@@ -1,0 +1,5 @@
+# npm nodules
+node_modules/
+
+# build files
+dist/

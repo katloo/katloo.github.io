@@ -1,0 +1,40 @@
+[
+    {
+        "title": "We are Xena 2024",
+        "src": "https://wearexena.com/agenda/",
+        "thumbnail": "https://media.licdn.com/dms/image/D4E22AQEeUGjAHHuokg/feedshare-shrink_800/0/1708962353977?e=1722470400&v=beta&t=G313TmCBvCXJSvjOxF1G_F2QQNS-hIOTO6eO-wNDM0U",
+        "type": "article"
+    },
+    {
+        "title": "stackconf 2022 | Cloud Native Infrastructure Conference",
+        "src": "https://www.youtube.com/embed/yoNIY5J5708?si=GnHYa8FL8vYlHJR_",
+        "type": "video"
+    },
+    {
+        "title": "FlowCon France 2019",
+        "src": "https://infoq.com/news/2020/01/scaling-infrastructure-code/",
+        "thumbnail": "https://res.infoq.com/news/2020/01/scaling-infrastructure-code/en/headerimage/scaling-infrastructure-code-1577946176301.jpeg",
+        "type": "article"
+    },
+    {
+        "title": "O'Reilly Software Architecture Berlin 2019",
+        "src": "https://oreilly.com/library/view/oreilly-software-architecture/9781492050728/video328522.html",
+        "thumbnail": "https://www.oreilly.com/library/cover/9781492050728/1200w630h/",
+        "type": "article"
+    },
+    {
+        "title": "DevOps D-Day Marseille 2019",
+        "src": "https://www.youtube.com/embed/npC_wZTXfwE",
+        "type": "video"
+    },
+    {
+        "title": "DevOpsDay Oslo 2019",
+        "src": "https://www.youtube.com/embed/hzYmsRfgRzs",
+        "type": "video"
+    },
+    {
+        "title": "WomenWhoCode 2019",
+        "src": "https://www.youtube.com/embed/5K4MHS4H7xs",
+        "type": "video"
+    }
+]
