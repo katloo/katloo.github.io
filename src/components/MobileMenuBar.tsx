@@ -4,7 +4,7 @@ import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
 
 const MobileMenuBar = () => {
   const [displayMenu, setDisplayMenu] = useState(false);
-  const displayedStyling = 'absolute items-center z-[999] left-0 w-[100%] h-[100dvh] ease-in-out duration-500 bg-white'
+  const displayedStyling = 'fixed items-center z-[999] top-0 left-0 w-[100%] h-[100%] ease-in-out duration-500 bg-white'
   const notDisplayedStyling = 'ease-in-out duration-500 fixed left-[-100%]'
 
   const handleDisplayMenu = () => {
