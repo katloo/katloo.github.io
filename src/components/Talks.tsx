@@ -12,7 +12,7 @@ const Talks = () => {
                 <div className='title text-xl justify-center align-center'>
                     Talks
                 </div>
-                <div className='mx-auto max-w-96 items-center justify-center'>
+                <div className='mx-auto max-w-[502px] items-center justify-center'>
                     {
                         data.map((value, index) => {
                             return (
