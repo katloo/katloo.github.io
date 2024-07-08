@@ -23,7 +23,7 @@ const Contact = () => {
                     </MdOutlineAlternateEmail>
                 </button>
                 <span className='inline-block align-top mx-auto'>
-                    <a href={email} className='font-serif mx-auto align-middle'>
+                    <a href={email} target='_blank' className='font-serif mx-auto align-middle'>
                         email
                     </a>
                 </span>
@@ -36,7 +36,7 @@ const Contact = () => {
                     </FaLinkedinIn>
                 </button>
                 <span className='inline-block align-top mx-auto'>
-                    <a href={linkedIn} className='font-serif mx-auto'>
+                    <a href={linkedIn} target='_blank' className='font-serif mx-auto'>
                         linkedin
                     </a>
                 </span>
@@ -49,7 +49,7 @@ const Contact = () => {
                     </IoLogoGithub>
                 </button>
                 <span className='inline-block align-top mx-auto'>
-                    <a href={github} className='font-serif mx-auto'>
+                    <a href={github} target='_blank' className='font-serif mx-auto'>
                         github
                     </a>
                 </span>
