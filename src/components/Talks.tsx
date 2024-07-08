@@ -1,5 +1,4 @@
 import React, { useEffect, useState, useRef } from 'react'
-import { FaCircleChevronLeft, FaCircleChevronRight } from 'react-icons/fa6'
 import SliderItem from './SliderItem'
 import data from './talks.json'
 
